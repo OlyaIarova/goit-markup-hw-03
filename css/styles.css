@@ -62,6 +62,11 @@ a {
   padding-bottom: 94px;
 }
 
+.section:nth-child(3) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 /* -----------------------header-nav-------------------- */
 .header-nav {
   display: flex;
@@ -135,18 +140,13 @@ a {
 
 /*-------------------------hero----------------------*/
 .hero {
-  display: flex;
   margin-top: 0px;
-  margin-bottom: 0px;
-
   background: var(--black-bg);
   text-align: center;
 }
 
 .hero-title {
-  margin-top: 0px;
   margin-bottom: var(--main-margin);
-
   color: var(--primary-header-color);
   font-weight: 900;
   font-size: 44px;
@@ -253,7 +253,6 @@ a {
 .button {
   display: inline-block;
   margin-left: 8px;
-  margin-bottom: 34px;
   border: 1px solid transparent;
   border-radius: 1px;
   padding: 10px 32px;
@@ -291,13 +290,15 @@ a {
 
 
 /* --------------------portfolio--------------------*/
+.portfolio-list .button {
+  margin-bottom: 34px;
+}
 
 .gallery-item {
   display: inline-block;
-  flex-wrap: wrap;
-  text-align: center;
   margin-right: var(--main-margin);
   margin-bottom: var(--main-margin);
+  outline: 2px solid tomato;
 }
 
 .gallery-item:nth-child(3n) {
