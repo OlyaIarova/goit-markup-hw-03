@@ -244,11 +244,6 @@ a {
 }
 
 /*--------------------button--------------------- */
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 .button {
   display: inline-block;
@@ -293,7 +288,11 @@ a {
 .portfolio-list .button {
   margin-bottom: 34px;
 }
-
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .gallery-item {
   display: inline-block;
   margin-right: var(--main-margin);
