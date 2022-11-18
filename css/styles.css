@@ -298,7 +298,7 @@ a {
 .gallery-item {
   display: inline-block;
   border-right: 1px #ECECEC;
-  border-right: 1px #ECECEC;
+  border-left: 1px #ECECEC;
   border-bottom: 1px #ECECEC;
   margin-right: var(--main-margin);
   margin-bottom: var(--main-margin);
