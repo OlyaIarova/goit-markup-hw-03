@@ -246,13 +246,9 @@ a {
 /*--------------------button--------------------- */
 
 .button {
-  display: inline-block;
-  margin-left: 8px;
   border: 1px solid transparent;
   border-radius: 1px;
-  padding: 10px 32px;
-  text-align: center;
-
+  padding: 6px 22px;
   color: var(--primary-text-color);
   background: var(--title-bg-color);
   font-family: Roboto, sans-serif;
@@ -261,7 +257,6 @@ a {
   font-size: 16px;
   line-height: calc(26 / 16);
 }
-
 .button.primary {
   color: var(--primary-btn-color);
   background: var(--accent-color);
@@ -285,13 +280,20 @@ a {
 
 
 /* --------------------portfolio--------------------*/
-.portfolio-list .button {
-  margin-bottom: 34px;
+.portfolio-list .items {
+  margin-bottom: 50px;
+  margin-right: 8px;
 }
+
+ .portfolio-list .items:nth-child(5n) {
+  margin-right: 0px;
+}  
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 .gallery-item {
   display: inline-block;
