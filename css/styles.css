@@ -110,6 +110,15 @@ a {
   letter-spacing: 0.02em;
 }
 
+.site-nav .list:hover,
+.site-nav .list:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .primary {
+  color: var(--accent-color);
+}
+
 /*-------------------------auth-nav--------------------*/
 .auth-nav {
   display: flex;
@@ -134,6 +143,10 @@ a {
 
 .auth-nav .list:hover,
 .auth-nav .list:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .primary {
   color: var(--accent-color);
 }
 
@@ -297,8 +310,6 @@ a {
 
 .gallery-item {
   display: inline-block;
-  border-right: 1px #ECECEC;
-  border-left: 1px #ECECEC;
   border-bottom: 1px #ECECEC;
   margin-right: var(--main-margin);
   margin-bottom: var(--main-margin);
