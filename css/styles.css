@@ -63,7 +63,6 @@ a {
 
 .section:nth-child(3) {
   padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 /* -----------------------header-nav-------------------- */
@@ -152,6 +151,9 @@ a {
 
 /*-------------------------hero----------------------*/
 .hero {
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-top: 0px;
   background: var(--black-bg);
   text-align: center;
@@ -163,7 +165,6 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -191,6 +192,7 @@ a {
 
 .feature-list .link {
   font-size: 14px;
+  margin: 0;
   line-height: calc(24 / 14);
 }
 
@@ -340,7 +342,10 @@ a {
 
 /*-------------------- footer-------------------- */
 .page-footer {
+  padding-top: 51px;
+  padding-bottom: 60px;
   background: var(--black-bg);
+
 }
 
 .logo-white {
@@ -354,6 +359,7 @@ a {
 }
 
 .auth-address {
+
   color: var(--primary-link-color);
   font-style: normal;
   font-size: 14px;
@@ -365,7 +371,7 @@ a {
   color: var(--accent-color);
 }
 
-.auth-address .item {
+.auth-address .items {
   margin-bottom: 12px;
 }
 
