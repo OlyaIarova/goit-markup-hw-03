@@ -221,11 +221,13 @@ a {
 .team-list {
   display: flex;
   text-align: center;
-  
+
 }
-.color{
+
+.color {
   background-color: #F5F4FA;
 }
+
 .team-list .img {
   margin-right: 30px;
 }
@@ -341,9 +343,11 @@ a {
   font-size: 16px;
   line-height: calc(30 / 16);
 }
-.gallery-item .tstle-link-bor{
+
+.gallery-item .tstle-link-bor {
   border: 1px solid #EEEEEE;
 }
+
 /*-------------------- footer-------------------- */
 .page-footer {
   padding-top: 51px;
