@@ -221,8 +221,11 @@ a {
 .team-list {
   display: flex;
   text-align: center;
+  
 }
-
+.coman{
+  background-color: #F5F4FA;
+}
 .team-list .img {
   margin-right: 30px;
 }
