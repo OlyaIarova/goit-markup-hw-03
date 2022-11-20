@@ -349,6 +349,7 @@ a {
 }
 
 .gallery-item .testle-link-bor {
+  padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid #EEEEEE;
