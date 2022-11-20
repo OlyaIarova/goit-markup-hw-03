@@ -163,7 +163,6 @@ a {
   display: block;
   max-width: 696px;
   margin: 0 auto;
-  text-transform: uppercase;
   margin-bottom: var(--main-margin);
   color: var(--primary-header-color);
   font-weight: 900;
