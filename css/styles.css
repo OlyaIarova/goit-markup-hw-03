@@ -352,8 +352,9 @@ a {
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px solid #EEEEEE;
-  
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 /*-------------------- footer-------------------- */
